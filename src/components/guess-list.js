@@ -17,6 +17,7 @@ export function GuessList(props) {
   );
 }
 
+
 const mapStateToProps = state => ({
   guesses: state.guesses
 });
